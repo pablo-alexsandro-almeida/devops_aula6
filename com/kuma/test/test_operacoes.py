@@ -7,4 +7,4 @@ class TestOperacoes(TestCase):
 		self.operacoes = Operacoes()
 	
 	def test_soma(self):
-		self.assertEqual(self.operacoes.soma([2, 5]), 6, 'Deveria ser 6')
+		self.assertEqual(self.operacoes.soma([1, 5]), 6, 'Deveria ser 6')
